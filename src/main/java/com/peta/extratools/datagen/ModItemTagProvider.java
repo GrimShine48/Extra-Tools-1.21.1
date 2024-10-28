@@ -21,5 +21,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.IRON_HAMMER)
                 .add(ModItems.GOLD_HAMMER)
                 .add(ModItems.DIAMOND_HAMMER);
+
+        getOrCreateTagBuilder(ModTags.Items.INBURNABLE_ITEMS)
+                .add(ModItems.NETHERITE_HAMMER);
     }
 }

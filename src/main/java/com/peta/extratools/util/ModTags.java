@@ -16,6 +16,7 @@ public class ModTags {
 }
     public static class Items {
         public static final TagKey<Item> BURNABLE_ITEMS = createTag("burnable_items");
+        public static final TagKey<Item> INBURNABLE_ITEMS = createTag("inburnable_items");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(ExtraTools.MOD_ID, name));
