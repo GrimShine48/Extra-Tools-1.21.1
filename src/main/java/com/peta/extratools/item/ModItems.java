@@ -54,22 +54,22 @@ public class ModItems {
 //  Scythes
     public static final Item WOODEN_SCYTHE = registerItem("wooden_scythe",
             new ScytheItem(ToolMaterials.WOOD, new Item.Settings()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.WOOD, 2, -2.1f))));
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.WOOD, 1, -1.6f))));
     public static final Item STONE_SCYTHE = registerItem("stone_scythe",
             new ScytheItem(ToolMaterials.STONE, new Item.Settings()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.STONE, 3, -2.2f))));
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.STONE, 2, -1.7f))));
     public static final Item IRON_SCYTHE = registerItem("iron_scythe",
             new ScytheItem(ToolMaterials.IRON, new Item.Settings()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.IRON, 4, -2.3f))));
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.IRON, 3, -1.8f))));
     public static final Item GOLD_SCYTHE = registerItem("gold_scythe",
             new ScytheItem(ToolMaterials.GOLD, new Item.Settings()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.GOLD, 5, -2.4f))));
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.GOLD, 4, -1.9f))));
     public static final Item DIAMOND_SCYTHE = registerItem("diamond_scythe",
             new ScytheItem(ToolMaterials.DIAMOND, new Item.Settings()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.DIAMOND, 6, -2.5f))));
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.DIAMOND, 5, -2f))));
     public static final Item NETHERITE_SCYTHE = registerItem("netherite_scythe",
             new ScytheItem(ToolMaterials.NETHERITE, new Item.Settings().fireproof()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.NETHERITE, 7, -2.6f))));
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.NETHERITE, 6, -2.1f))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ExtraTools.MOD_ID, name), item);
