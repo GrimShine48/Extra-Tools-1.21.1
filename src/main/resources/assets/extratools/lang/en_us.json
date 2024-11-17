@@ -1,0 +1,22 @@
+{
+  "item.extratools.wooden_hammer": "Wooden Hammer",
+  "item.extratools.stone_hammer": "Stone Hammer",
+  "item.extratools.iron_hammer": "Iron Hammer",
+  "item.extratools.gold_hammer": "Gold Hammer",
+  "item.extratools.diamond_hammer": "Diamond Hammer",
+  "item.extratools.netherite_hammer": "Netherite Hammer",
+
+  "item.extratools.wooden_excavator": "Wooden Excavator",
+  "item.extratools.stone_excavator": "Stone Excavator",
+  "item.extratools.iron_excavator": "Iron Excavator",
+  "item.extratools.gold_excavator": "Gold Excavator",
+  "item.extratools.diamond_excavator": "Diamond Excavator",
+  "item.extratools.netherite_excavator": "Netherite Excavator",
+
+  "item.extratools.wooden_scythe": "Wooden Scythe",
+  "item.extratools.stone_scythe": "Stone Scythe",
+  "item.extratools.iron_scythe": "Iron Scythe",
+  "item.extratools.gold_scythe": "Gold Scythe",
+  "item.extratools.diamond_scythe": "Diamond Scythe",
+  "item.extratools.netherite_scythe": "Netherite Scythe"
+}

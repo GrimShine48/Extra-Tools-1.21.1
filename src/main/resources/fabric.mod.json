@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "extratools",
+	"version": "${version}",
+	"name": "Extra Tools",
+	"description": "This mod will add a few extra tools that will make your life easier",
+	"authors": [
+		"GrimShine48"
+	],
+	"contact": {
+		"homepage": "https://github.com/GrimShine48",
+		"sources": "https://github.com/GrimShine48/Extra-Tools-1.21.1"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/extratools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.peta.extratools.ExtraTools"
+		],
+		"fabric-datagen": [
+			"com.peta.extratools.ExtraToolsDataGenerator"
+		],
+		"client": [
+			"com.peta.extratools.ExtraToolsClient"
+		]
+	},
+	"mixins": [
+		"extratools.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
